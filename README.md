@@ -1,10 +1,12 @@
 # 🚀 Supercharge Your Productivity with the Amazing To-Do List App 🌟
 Welcome to a world of efficiency and organization! Dive into our sleek and intuitive to-do list app designed to revolutionize how you manage tasks. Seamlessly add, complete, update, and delete tasks through a user-friendly interface and experience productivity like never before!
 
+#### Check out the live app [To Do List App](https://noraalqassim.github.io/To-Do-List-App-/).
+
 ## ✨ Features ✨
 - **Add Tasks**:
  
-   Add new tasks by entering a description and clicking the “Add” button. Tasks will appear with a checkbox to easily track completion.
+   Add new tasks by entering a description and clicking the “ + ” button. Tasks will appear with a checkbox to easily track completion.
   
 - **Mark tasks as complete**:
   
@@ -12,7 +14,7 @@ Welcome to a world of efficiency and organization! Dive into our sleek and intui
   
 - **Update task content**:
   
-  You can update task content by clicking the edit icon. Note that completed tasks cannot be edited.
+  You can update the task content by clicking the edit icon. Don't worry, completed tasks cannot be edited.
   
 - **Delete tasks**:
   
