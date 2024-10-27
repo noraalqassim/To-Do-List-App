@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To do app</title>
+    <link rel="icon" href="./images/toDoList.jpg" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>ToDo App <i class="fa-solid fa-list-check"></i></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your ToDo" />
+          <button class="addTaskbtn" onclick="addTask()">
+            <i class="fa fa-plus"></i>
+          </button>
+        </div>
+        <div class="counter">
+          <p class="total-Todos">Total Todos: <span id="totalTodos">0</span></p>
+          <p class="completed-Todos">Completed: <span id="completedTodos">0</span></p> <br/>
+        </div>
+        
+        <ul id="list-container"></ul>
+
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
